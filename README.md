@@ -14,7 +14,7 @@
 
 ## Description
 
-This is an Application for people that are interested in coding which helps them decide which language they want to learn first.
+This is an Application for people that are interested in coding which helps them decide which language they should learn first based on their interests.
 
 ## Setup/Installation
 

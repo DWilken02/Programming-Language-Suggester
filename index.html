@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script>
@@ -7,6 +8,12 @@
   </head>
   <body>
     <h1>Programming-Language-Suggester</h1>
+    <p><strong>Languages available:</strong></p>
+    <ul>
+      <li>Ruby</li>
+      <li>C#</li>
+      <li>JavaScript</li>
+    </ul>
     <p><strong>Answer these questions:</strong></p>
     <form id="question-form">
       <label for="question1">What is your favorite color?</label>
@@ -19,7 +26,10 @@
         <input type="radio" name="question-answer-2" value="No">
         No
       </label><br>
-      <label for="question4"></label>
+      <label for="question4">What is your favorite kind of Science?</label>
+      <input id="question4" type="text" name="question4">
+      <label for="question5">What interests you about coding?</label>
+      <input id="question5" type="text" name="question5">
     </form>
   </body>
 </html>
