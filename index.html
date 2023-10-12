@@ -7,30 +7,32 @@
     <title>Programming-Language-Suggester</title>
   </head>
   <body>
-    <h1>Programming-Language-Suggester</h1>
-    <p><strong>Languages available:</strong></p>
-    <ul>
-      <li>Ruby</li>
-      <li>C#</li>
-      <li>JavaScript</li>
-    </ul>
-    <p><strong>Answer these questions:</strong></p>
-    <form id="question-form">
-      <label for="question1">What is your favorite color?</label>
-      <input id="question1" type="text" name="question1"><br>
-      <label for="question2">What is your favorite dog breed?</label>
-      <input id="question2" type="text" name="question2"><br>
-      <label for="question3">Do you like Singing in the Rain?</label>
-      <select id="question3">
-        <option>Yes</option>
-        <option>No</option>
-      </select>
-      </label><br>
-      <label for="question4">What is your favorite kind of Science?</label>
-      <input id="question4" type="text" name="question4"><br>
-      <label for="question5">What interests you about coding?</label>
-      <input id="question5" type="text" name="question5">
-    </form>
+    <div id="main">
+      <h1>Programming-Language-Suggester</h1>
+      <p><strong>Languages available:</strong></p>
+      <ul>
+        <li>Ruby</li>
+        <li>C#</li>
+        <li>JavaScript</li>
+      </ul>
+      <p><strong>Answer these questions:</strong></p>
+      <form id="question-form">
+        <label for="question1">What is your favorite color?</label>
+        <input id="question1" type="text" name="question1"><br>
+        <label for="question2">What is your favorite dog breed?</label>
+        <input id="question2" type="text" name="question2"><br>
+        <label for="question3">Do you like Singing in the Rain?</label>
+        <select id="question3">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+        </label><br>
+        <label for="question4">What is your favorite kind of Science?</label>
+        <input id="question4" type="text" name="question4"><br>
+        <label for="question5">What interests you about coding?</label>
+        <input id="question5" type="text" name="question5">
+      </form>
+    </div>
     <div id="results" class="hidden">
       <h2><strong>Results</strong></h2>
       I suggest that you learn <span id="result-display"></span>

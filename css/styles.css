@@ -3,17 +3,26 @@
 }
 
 body {
-  text-align: center;
-  background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=1380&t=st=1697148199~exp=1697148799~hmac=d5a0eb68177b6867bfb0f0be260d66721b21ca614c87bcc2f248e9b115368990;)
+  background: rgba(0, 0, 0, .65) url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=1380&t=st=1697148199~exp=1697148799~hmac=d5a0eb68177b6867bfb0f0be260d66721b21ca614c87bcc2f248e9b115368990;);
+  background-blend-mode: darken;
 }
+#main {
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: black;
+}
+
 ul {
   display: inline-block;
   text-align: left;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 li {
-  text-align: center;
+  margin-left: 1em;
 }
+
 input {
   margin-bottom: 3ex;
 }
