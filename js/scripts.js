@@ -10,4 +10,10 @@ function handleFormSubmission(event) {
   const question3Input = document.getElementById("question3").value;
   const question4Input = document.getElementById("question4").value;
   const question5Input = document.getElementById("question5").value;
+
+  
+  document.querySelector("span#result-display").innerText = question1Input;
+  document.querySelector("span#result-display").innerText = question2Input;
+  document.querySelector("span#result-display").innerText = question3Input;
+  document.getElementById("results").removeAttribute("class");
 }

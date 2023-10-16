@@ -35,3 +35,9 @@ input {
 #question3 {
   margin-bottom: 3ex;
 }
+
+#results {
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: black;
+}
