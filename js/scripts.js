@@ -12,5 +12,7 @@ function handleFormSubmission(event) {
   const question5Input = document.getElementById("question5").value;
 
   
-  if (!question1Input )
+  if (!question1Input = red && !question2Input = husky) {
+    document.getElementById("question-form")
+  }
 }

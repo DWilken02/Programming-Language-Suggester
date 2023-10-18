@@ -28,6 +28,14 @@ li {
   margin-left: 1em;
 }
 
+#question1 {
+  margin-bottom: 3ex;
+}
+
+#question2 {
+  margin-bottom: 3ex;
+}
+
 input {
   margin-bottom: 3ex;
 }
