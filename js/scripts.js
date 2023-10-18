@@ -12,5 +12,5 @@ function handleFormSubmission(event) {
   const question5Input = document.getElementById("question5").value;
 
   
-  if ()
+  if (!question1Input )
 }
