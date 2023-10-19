@@ -11,8 +11,8 @@ function handleFormSubmission(event) {
   const question4Input = document.getElementById("question4").value;
   const question5Input = document.getElementById("question5").value;
 
-  
-  if (!question1Input == "Blue" && !question2Input == "Husky") {
-    document.getElementById("question-form")
+  if (question1Input == "Blue" && question2Input == "Husky" && question3Input == "Yes" && question4Input == "Biology" && question5Input == "Coding Jobs") {
+    document.querySelector("span#result-display").innerText = "Ruby";
   }
+  document.getElementById("results").removeAttribute("class");
 }

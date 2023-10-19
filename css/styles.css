@@ -48,6 +48,10 @@ input {
   margin-bottom: 3ex
 }
 
+#question5 {
+  margin-bottom: 3ex;
+}
+
 #results {
   color: white;
   text-align: center;
