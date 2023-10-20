@@ -13,6 +13,11 @@ function handleFormSubmission(event) {
 
   if (question1Input == "Blue" && question2Input == "Husky" && question3Input == "Yes" && question4Input == "Biology" && question5Input == "Coding Jobs") {
     document.querySelector("span#result-display").innerText = "Ruby";
-  }
+  } else if (question1Input == "Red" && question2Input == "Chihuahua" && question3Input == "Kind of" && question4Input == "Marine Biology" && question5Input == "Coding tools") {
+    document.querySelector("span#result-display").innerText = "C#";
+  } else if (question1Input == "Blue" && question2Input == "German Shepherd" && question3Input == "No" && question4Input == "Astronomy" && question5Input == "Coding Languages") {
+    document.querySelector("span#result-display").innerText = JavaScript;
+  } else if (question1Input == "Red" && question2Input == )
+  
   document.getElementById("results").removeAttribute("class");
-}
+} 
