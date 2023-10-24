@@ -2,12 +2,11 @@
 
 #### By **DWilken02**
 
+#### _A simple question form to help determine your first coding language_
+
 ## Technologies used
 
 * VSCode
-
-## Languages used
-
 * HTML
 * CSS
 * JavaScript
@@ -18,7 +17,10 @@ This is an Application for people that are interested in coding which helps them
 
 ## Setup/Installation
 
-Clone down the git repository
+1. Click the green code button
+2. Then click download zip
+3. Open the project folder
+4. Then drag the index.html file to a browser of your choice
 
 ## License
 

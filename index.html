@@ -18,12 +18,12 @@
       <p><strong>Answer these questions:</strong></p>
       <form id="question-form">
         <label for="question1">What is your favorite out of these 2 colors?</label>
-        <select id="question1">
+        <select id="question1" class="question-margin">
           <option>Blue</option>
           <option>Red</option>
         </select><br>
         <label for="question2">What is your favorite dog breed?</label>
-        <select id="question2">
+        <select id="question2" class="question-margin">
           <option>Husky</option>
           <option>Chihuahua</option>
           <option>German Shepherd</option>
@@ -31,14 +31,14 @@
           <option>Dachshund</option>
         </select><br>
         <label for="question3">Do you like Singing in the Rain?</label>
-        <select id="question3">
+        <select id="question3" class="question-margin">
           <option>Yes</option>
           <option>Kind of</option>
           <option>No</option>
         </select>
         </label><br>
         <label for="question4">What is your favorite kind of Science?</label>
-        <select id="question4">
+        <select id="question4" class="question-margin">
           <option>Biology</option>
           <option>Marine Biology</option>
           <option>Astronomy</option>
@@ -46,16 +46,16 @@
           <option>Computer Science</option>
         </select><br>
         <label for="question5">Which of these interests you about coding?</label> 
-        <select id="question5">
+        <select id="question5" class="question-margin">
           <option>Coding Jobs</option>
           <option>Coding tools</option>
           <option>Coding languages</option><br>
-        </select>
+        </select><br>
         <button type="submit">Submit Answers</button>
       </form>
     </div>
     <div id="results" class="hidden">
-      <h2><strong>Results</strong></h2>
+      <h2><strong>Results:</strong></h2>
       I suggest that you learn <span id="result-display"></span> first.
     </div>
   </body>
